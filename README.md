@@ -16,6 +16,8 @@ Adds an AJAX rating system for your WordPress site's content.
 3. Find: `<?php while (have_posts()) : the_post(); ?>`
 4. Add Anywhere Below It (The Place You Want The Ratings To Show): `<?php if(function_exists('the_ratings')) { the_ratings(); } ?>`
 
++++Add Dummyluck:
+	the_ratings(true); - only show rating (for main page list)
 * If you DO NOT want the ratings to appear in every post/page, DO NOT use the code above. Just type in `[ratings]` into the selected post/page content and it will embed ratings into that post/page only.
 * If you want to embed other post ratings use `[ratings id="1"]`, where 1 is the ID of the post/page ratings that you want to display.
 * If you want to embed other post ratings results, use `[ratings id="1" results="true"]`, where 1 is the ID of the post/page ratings results that you want to display.
